@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MI_Gallery | Login</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/material/24/000000/image-gallery.png">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-warning ">
+        <div class="container">
+            <a class="navbar-brand logo" href="../index.html">MI-Gallery</a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../gallery/gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../homepage/about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../homepage/contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../login/login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../signup/signup.html">Signup</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page registration-page">
+        <section class="clean-block clean-form">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info mt-5 "><span style="color:black">Please Login</span></h2>
+                </div>
+                <form class="was-validated center" >                
+                    
+                    
+                    <table>
+                            <tr><td>Email: </td><td><input class="form-control item mb-3 ml-3" type="email" id="email" placeholder="Enter email" required></td></tr>
+                            <tr><td>Password: </td><td><input class="form-control item mb-3 ml-3" type="password" id="password" placeholder="Enter password" required </td></tr>
+                            
+                        </table>
+                    
+                    <div style="text-align :center">
+                    <button class="btn btn-success ml-5" type="submit" id="loginBtn">Login</button>
+                    <button class="btn btn-success " type="reset" >Clear</button>
+                </div>
+                <div class="alert alert-danger mt-3" style="display: none;" role="alert" id="message">
+                    <ul>
+                        <li id="loginError" style="display: none;">
+                            Please enter valid email or password.
+                        </li>
+
+                    </ul>
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+  
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <p>Group3_React © 2022 Copyright</p>
+        </div>
+    </footer>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="./assets/js/smoothproducts.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+    <script src="./assets/js/login.js"></script>
+    <script src="../session-scripts/session.js"></script>
+    <script>
+        if(checkSession()){
+            window.location.href = '../profile/profile.html'
+        }
+    </script>
+    
+</body>
+</html>

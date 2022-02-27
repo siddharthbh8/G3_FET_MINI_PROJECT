@@ -1,0 +1,327 @@
+{
+  "user": [
+    {
+      "firstName": "shubham",
+      "lastName": "shubham",
+      "username": "shubham1",
+      "email": "shubham1@yahoo.com",
+      "address": "mumbai, India",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 0
+    },
+    {
+      "firstName": "sidharth",
+      "lastName": "sidharth",
+      "username": "sidharth",
+      "email": "sidharth@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 1
+    },
+    {
+      "firstName": "sidharth1",
+      "lastName": "sidharth2",
+      "username": "sidharth3",
+      "email": "sidharth3@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 2
+    },
+    {
+      "firstName": "shubham1",
+      "lastName": "shubham1",
+      "username": "shubham2",
+      "email": "shubham2@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 3
+    },
+    {
+      "firstName": "supriya",
+      "lastName": "supriya",
+      "username": "supriya",
+      "email": "supriya@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 4
+    },
+    {
+      "firstName": "supriya",
+      "lastName": "supriya",
+      "username": "supriya1",
+      "email": "supriya1@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 5
+    },
+    {
+      "firstName": "supriya",
+      "lastName": "supriya",
+      "username": "supriya2",
+      "email": "supriya2@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 6
+    },
+    {
+      "firstName": "shubham1",
+      "lastName": "shubham1",
+      "username": "shubham3",
+      "email": "shubham3@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 7
+    },
+    {
+      "firstName": "sudarshan",
+      "lastName": "sudarshan",
+      "username": "sudarshan",
+      "email": "sudarshan@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 8
+    },
+    {
+      "firstName": "sudarshan2",
+      "lastName": "sudarshan2",
+      "username": "sudarshan2",
+      "email": "sudarshan2@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 9
+    },
+    {
+      "firstName": "sudarshan3",
+      "lastName": "sudarshan3",
+      "username": "sudarshan3",
+      "email": "sudarshan3@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 10
+    },
+    {
+      "firstName": "shubham",
+      "lastName": "shubham",
+      "username": "supriya.237199",
+      "email": "shubham@yahoo.com",
+      "address": "mumbai, mh",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "id": 11
+    },
+    {
+      "firstName": "supriya",
+      "lastName": "kolheeeeee",
+      "username": "supriyakol",
+      "email": "supriyakol@gmail.com",
+      "address": "mumbai, MH",
+      "city": "mumbai",
+      "country": "india",
+      "password": "Sid@1234",
+      "avatar": "https://img.etimg.com/thumb/msid-75572296,width-640,resizemode-4,imgsize-507941/bmw-ninet.jpg",
+      "id": 12
+    }
+  ],
+  "contact": [
+    {
+      "name": "supriya nivrutti kolhe",
+      "email": "supriy@gmail.com",
+      "message": "please ping me",
+      "id": 1
+    },
+    {
+      "email": "supriya",
+      "message": "hello there",
+      "id": 2
+    },
+    {
+      "email": "supriyakol@gmail.com",
+      "message": "i have a query",
+      "id": 3
+    }
+  ],
+  "post": [
+    {
+      "user_id": "9",
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19804/220-SM964552.jpg",
+      "date": "2022-02-23T06:49:30.020Z",
+      "title": "girl",
+      "details": "girl",
+      "likes": "5",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#girl",
+      "id": 110
+    },
+    {
+      "user_id": "10",
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19804/220-SM964552.jpg",
+      "date": "2022-02-23T07:25:54.287Z",
+      "title": "sid",
+      "details": "sid uploaded",
+      "likes": "2",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#city",
+      "id": 111
+    },
+    {
+      "user_id": "11",
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19804/220-SM964552.jpg",
+      "date": "2022-02-23T10:30:21.301Z",
+      "title": "uploaded",
+      "details": "uploaded",
+      "likes": "0",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#City",
+      "id": 112
+    },
+    {
+      "user_id": "11",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg",
+      "date": "2022-02-23T10:31:42.004Z",
+      "title": "uploaded",
+      "details": "uploaded",
+      "likes": "0",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#City",
+      "id": 113
+    },
+    {
+      "user_id": "11",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg",
+      "date": "2022-02-23T10:32:41.196Z",
+      "title": "city",
+      "details": "city",
+      "likes": "0",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#city",
+      "id": 114
+    },
+    {
+      "user_id": "11",
+      "image": "https://image.shutterstock.com/image-vector/color-sport-background-football-basketball-260nw-1315841180.jpg",
+      "date": "2022-02-23T10:40:08.790Z",
+      "title": "sports",
+      "details": "sports",
+      "likes": "2",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#sports",
+      "id": 115
+    },
+    {
+      "user_id": "11",
+      "image": "https://dokov.bg/assets/img/bootstrap-font-sizes.125e052f.jpg",
+      "date": "2022-02-23T12:58:40.099Z",
+      "title": "upload",
+      "details": "upload",
+      "likes": "0",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#travelling",
+      "id": 116
+    },
+    {
+      "user_id": "11",
+      "image": "https://dokov.bg/assets/img/bootstrap-font-sizes.125e052f.jpg",
+      "date": "2022-02-23T12:59:29.010Z",
+      "title": "posted",
+      "details": "posted",
+      "likes": "0",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#travel",
+      "id": 117
+    },
+    {
+      "user_id": "0",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/d9d7ad104360973.5f6142500e188.png",
+      "date": "2022-02-27T12:08:33.576Z",
+      "title": "galaxy",
+      "details": "galaxy",
+      "likes": "1",
+      "comments": "0",
+      "downloads": "0",
+      "hashtags": "#universe galaxy",
+      "id": 118
+    }
+    
+  ],
+  "comment": [
+    {
+      "post_id": "100",
+      "user_id": "9",
+      "date": "2022-02-23T06:18:38.328Z",
+      "likes": "0",
+      "details": "nice one",
+      "id": 33
+    },
+    {
+      "post_id": "110",
+      "user_id": "10",
+      "date": "2022-02-23T07:22:40.786Z",
+      "likes": "0",
+      "details": "again commented",
+      "id": 34
+    },
+    {
+      "post_id": "100",
+      "user_id": "11",
+      "date": "2022-02-23T09:54:20.100Z",
+      "likes": "0",
+      "details": "hello",
+      "id": 35
+    },
+    {
+      "post_id": "100",
+      "user_id": "11",
+      "date": "2022-02-23T10:21:17.000Z",
+      "likes": "0",
+      "details": "commented commented",
+      "id": 36
+    },
+    {
+      "post_id": "108",
+      "user_id": "11",
+      "date": "2022-02-23T10:37:57.722Z",
+      "likes": "0",
+      "details": "done done done",
+      "id": 37
+    },
+    {
+      "post_id": "118",
+      "user_id": "0",
+      "date": "2022-02-27T12:09:18.722Z",
+      "likes": "0",
+      "details": "nice view",
+      "id": 38
+    }
+  ]
+}

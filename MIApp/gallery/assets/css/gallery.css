@@ -1,0 +1,91 @@
+.author {
+  text-align: center;
+}
+
+.category-div img {
+  border: crimson 2px solid;
+  border-radius: 10%;
+  -webkit-filter: blur(1px) grayscale(100%);
+          filter: blur(1px) grayscale(100%);
+  max-width: 100%;
+  max-height: 100%;
+  margin: 25px;
+  padding: 2px;
+}
+.category-div img{
+  filter: none;
+}
+#searchArea{
+  width:30%;
+  
+}
+.modal{
+      opacity:0.9 !important;
+  
+}
+ 
+
+.commentbox {
+  float: right;
+}
+.commentbox:hover {
+  background-color: black;
+  color: yellow;
+  -webkit-transform: scale(1.06, 1.06);
+          transform: scale(1.06, 1.06);
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+.download-button {
+  height: auto;
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: x-large;
+  text-align: center;
+}
+
+
+
+.hashtag {
+  text-align: center;
+}
+
+.image-detail {
+  color: green;
+  font-size: smaller;
+}
+
+.likes:hover {
+  /* background-color: red; */
+  
+  color: black;
+  -webkit-transform: scale(1.06, 1.06);
+          transform: scale(1.06, 1.06);
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+p {
+  margin: 0.2rem;
+}
+
+.sticky-search-bar {
+  font-size: 20px;
+  top: 20px;
+  padding-top: 60px;
+  position: sticky;
+  z-index: 1;
+}
+.sticky-search-bar form {
+  margin: 0;
+  padding: 0;
+}
+.sticky-search-bar form input {
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=gallery.css.map */

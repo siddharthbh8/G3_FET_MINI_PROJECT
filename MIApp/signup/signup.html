@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MI-Gallery | Register</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/material/24/000000/image-gallery.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+ 
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/smoothproducts.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-warning">
+        <div class="container">
+            <a class="navbar-brand logo" href="../index.html">MI-Gallery</a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../gallery/gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../homepage/about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../homepage/contact-us.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../login/login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../signup/signup.html">Signup</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page registration-page">
+        <section class="clean-block clean-form">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info mt-5"><span style="color:black">Registration</span></h2>
+                </div>
+                <form class="was-validated" id="register">
+                    <div>
+                        <h6 style="text-align: center;">Already registered? <a href="../login/login.html"
+                                class="link-primary">Login</a> </h6>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">First Name</label><input class="form-control item" type="text" id="fname"
+                            required minlength="2" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Last Name</label><input class="form-control item" type="text" id="lname"
+                            required minlength="2" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">User Name</label><input class="form-control item" type="text" id="username"
+                            required minlength="5" maxlength="20">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label><input class="form-control item" type="email" id="email"
+                            required minlength="10" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Address</label><input class="form-control item" type="text" id="address"
+                            required minlength="10" maxlength="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">City</label><input class="form-control item" type="text" id="city" required
+                            minlength="3" maxlength="30">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Country</label><input class="form-control item" type="text" id="country"
+                            required minlength="3" maxlength="30">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label><input class="form-control item" name="password"
+                            type="password" id="password" required minlength="8" maxlength="12"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </div>
+                    <div class="form-group">
+                        <label for="password"> Confirm Password</label><input class="form-control item" type="password"
+                            id="cpassword" name="cpassword" required minlength="8" maxlength="12"
+                            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                    </div>
+                    <div class="alert alert-primary" role="alert" id="registerationSuccessful">
+                        Registration Successful
+                    </div>
+                    <div class="alert alert-danger" role="alert" id="alerts">
+                        <ul>
+                            <li id="passwordIdenticalAlert">
+                                Password and Confirm password fields do not match.
+                            </li>
+                            <li id="passwordRegexpAlert">
+                                password length should be between 8 and 12 and should contain atleast 1 lowercase, 1
+                                uppercase, and 1 special character
+                            </li>
+                            <li id="emailAlert">
+                                Email already registered.
+                            </li>
+                            <li id="usernameAlert">
+                                Username already taken.
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="text-align :center">
+                    <button class="btn btn-success" id="registerBtn" type="submit">Sign Up</button>
+                    <button class="btn btn-success " type="reset" >Clear</button>
+                </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <p>Group3_React © 2022 Copyright</p>
+        </div>
+    </footer>
+    <script src="./assets/js/signup.js"></script>
+    <script src="../session-scripts/session.js"></script>
+    <script>
+        if (checkSession()) {
+            window.location.href = '../profile/profile.html'
+        }
+    </script>
+</body>
+
+</html>
